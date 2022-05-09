@@ -1,0 +1,66 @@
+.box-shadow{
+    padding: 10px;
+    box-shadow: 5px 10px 8px #34799d;
+    width: 25%;
+    border-radius: 10px;
+    border: 2px solid #34799d;  
+    margin-top: 150px;          
+    background-color:#f8f9fa;
+}
+form{
+    text-align: left;
+    padding-left: 30px;
+}
+.input{
+    border: 2px solid gray;
+    border-color: #f1f2f3;
+    background-color: #bec6cfd1;
+    color:hsl(163deg 14% 10%) ;
+    border-radius: 5px;
+    padding: 5px 5px 5px 5px;
+    width: 85%;
+    height: 20px;
+}
+select{
+    border: 2px solid gray;
+    border-color: #f1f2f3;
+    background-color: #bec6cfd1;
+    color:hsl(163deg 14% 10%) ;
+    border-radius: 5px;
+    padding: 5px 5px 5px 5px;
+    width: 25%;
+    height: 35px;  
+}
+body{
+    background-color:#34799d;
+}
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+}
+input[type=number] { 
+    -moz-appearance: textfield;
+    appearance: textfield;
+}
+.input-button{
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #3e586c;
+    text-align: center;
+    cursor: pointer;
+    width: 90%;
+    font-size: 18px;
+    border-radius:10px;
+    font-family: "Georgia", "Palatino", "serif";
+}
+h2{
+    text-align:center;
+    font-family: "Georgia", "Palatino", "serif";
+}
+p{
+    font-size:15px;
+    font-family: "Georgia", "Palatino", "serif";  
+    padding-top: 12px;
+}
